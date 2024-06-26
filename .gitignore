@@ -1,0 +1,7 @@
+# IDE
+.idea
+
+# macOS
+.DS_Store
+
+test_backup
