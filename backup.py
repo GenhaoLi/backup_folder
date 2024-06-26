@@ -26,7 +26,7 @@ def main(source_folder, destination_folder, interval=DEFAULT_BACKUP_INTERVAL):
         time.sleep(interval)
 
 if __name__ == "__main__":
-    src_folder = "/Users/a13554/PycharmProjects/pythonProject/test"
-    dst_folder = "/Users/a13554/PycharmProjects/pythonProject/test_backup"
+    src_folder = "/Users/a13554/PycharmProjects/backup_folder/test"
+    dst_folder = "/Users/a13554/PycharmProjects/backup_folder/test_backup"
     backup_interval = 2  # Time in seconds between backups
     main(src_folder, dst_folder, backup_interval)
